@@ -1,0 +1,863 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+local Window = Library.CreateLib("olidragon210 hub ", "Ocean")
+
+-- Hub
+
+local Hub = Window:NewTab ("Hub")
+
+local HubSection = Hub:NewSection("Hub")
+
+HubSection:NewButton("HOHO HUB ", " MULTI HUB", function ()
+
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/HohoHub.lua'))()
+
+end)
+
+HubSection:NewButton("animation hub", " tout les animations", function ()
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Animation-Hub/main/Animation%20Gui", true))()
+
+end)
+
+HubSection:NewButton("Salmon hub", " boombox hub", function ()
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Salmon-B0T/SalmonHub/main/SalmonHub.lua", true))()
+
+end)
+
+HubSection:NewButton("Orca hub", " multi hub", function ()
+
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/richie0866/orca/master/public/latest.lua"))()
+
+end)
+
+HubSection:NewButton("astroware hub", " multi hub", function ()
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/4twmRpx3"))()
+
+end)
+
+HubSection:NewButton("British Hub", " multi hub", function ()
+
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/YourLocalNzi/Ye/main/BHob6"),true))()
+
+end)
+
+HubSection:NewButton("Dzigi Hub", " multi hub", function ()
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/qCSy1dPg"))();
+
+end)
+
+HubSection:NewButton("Melon Hub Reborn", " le hub de melon", function ()
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/olidragon279/melon-hub/main/Fe%20melon%20hub"))();
+
+end)
+
+HubSection:NewButton("game hub", " le hub des jeux", function ()
+
+    loadstring("\103\97\109\101\46\83\116\97\114\116\101\114\71\117\105\58\83\101\116\67\111\114\101\40\34\83\101\110\100\78\111\116\105\102\105\99\97\116\105\111\110\34\44\32\123\10\32\32\32\32\84\105\116\108\101\32\61\32\34\71\97\109\101\115\32\72\117\98\32\86\53\34\59\10\32\32\32\32\84\101\120\116\32\61\32\34\83\117\98\115\99\114\105\98\101\32\116\111\32\84\97\107\101\32\77\111\100\122\122\34\59\32\45\45\32\119\104\97\116\32\116\104\101\32\116\101\120\116\32\115\97\121\115\32\40\111\102\99\41\10\32\32\32\32\68\117\114\97\116\105\111\110\32\61\32\53\59\10\125\41\10\103\97\109\101\46\83\116\97\114\116\101\114\71\117\105\58\83\101\116\67\111\114\101\40\34\83\101\110\100\78\111\116\105\102\105\99\97\116\105\111\110\34\44\32\123\10\32\32\32\32\84\105\116\108\101\32\61\32\34\67\114\101\100\105\116\115\32\84\111\32\65\100\118\97\110\99\101\70\97\108\108\105\110\103\34\59\10\32\32\32\32\84\101\120\116\32\61\32\34\83\117\98\115\99\114\105\98\101\32\116\111\32\89\101\108\108\111\119\71\114\101\103\80\114\111\103\114\97\109\34\59\32\45\45\32\119\104\97\116\32\116\104\101\32\116\101\120\116\32\115\97\121\115\32\40\111\102\99\41\10\32\32\32\32\68\117\114\97\116\105\111\110\32\61\32\53\59\10\125\41\10\10\108\111\99\97\108\32\107\97\118\111\85\105\32\61\32\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\118\102\102\49\98\81\57\70\34\41\41\40\41\10\108\111\99\97\108\32\119\105\110\100\111\119\32\61\32\107\97\118\111\85\105\46\67\114\101\97\116\101\76\105\98\40\34\71\97\109\101\115\32\72\85\66\32\86\53\32\83\101\108\101\99\116\111\114\34\44\34\68\97\114\107\84\104\101\109\101\34\41\10\32\10\45\45\45\84\97\98\115\10\32\10\108\111\99\97\108\32\84\97\98\49\32\61\32\119\105\110\100\111\119\58\78\101\119\84\97\98\40\34\83\101\108\101\99\116\34\41\10\108\111\99\97\108\32\84\97\98\49\83\101\99\116\105\111\110\32\61\32\84\97\98\49\58\78\101\119\83\101\99\116\105\111\110\40\34\83\101\108\101\99\116\32\97\32\85\73\34\41\10\10\45\45\45\66\117\116\116\111\110\115\10\32\10\32\84\97\98\49\83\101\99\116\105\111\110\58\78\101\119\66\117\116\116\111\110\40\34\79\108\100\32\85\73\32\76\105\98\114\97\114\121\34\44\34\78\111\32\100\101\115\99\114\105\112\116\105\111\110\34\44\102\117\110\99\116\105\111\110\40\41\10\32\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\84\97\107\101\77\111\100\122\122\47\71\97\109\101\115\45\72\85\66\45\86\53\45\79\116\104\101\114\45\82\101\97\108\47\109\97\105\110\47\71\97\109\101\115\37\50\48\72\85\66\37\50\48\86\53\37\50\48\79\116\104\101\114\37\50\48\82\101\97\108\34\41\41\40\41\10\32\101\110\100\41\10\32\10\32\84\97\98\49\83\101\99\116\105\111\110\58\78\101\119\66\117\116\116\111\110\40\34\78\101\119\32\85\73\32\76\105\98\114\97\114\121\40\115\111\109\101\32\98\117\103\115\41\34\44\34\78\111\32\100\101\115\99\114\105\112\116\105\111\110\34\44\102\117\110\99\116\105\111\110\40\41\10\32\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\84\97\107\101\77\111\100\122\122\47\71\97\109\101\115\45\72\85\66\45\86\53\47\109\97\105\110\47\71\97\109\101\115\37\50\48\72\85\66\37\50\48\86\53\34\41\41\40\41\10\32\101\110\100\41\10")()
+
+end)
+
+HubSection:NewButton("Mini hub", " multi hub", function ()
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MiniNoobie/MINI-HUB-V2/main/FINALLY%20UPDATED%20MINI%20HUB",true))()
+
+end)
+
+HubSection:NewButton("Nightmare Hub", " r6 animation hub", function ()
+
+    loadstring(game:HttpGet(('https://pastefy.ga/lrjtanrp/raw'),true))()
+
+end)
+
+HubSection:NewButton("Pro Hub", " multi hub", function ()
+
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/Kindasua/v.1-beta/main/Fixed%20bugs%20v.1%20beta"), true))()
+
+end)
+
+HubSection:NewButton("snoophub", " le hub de snoop", function ()
+
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/arko34920v2/SnoophubOlivier/main/SnoophubOlivier'))()
+
+end)
+
+HubSection:NewButton("Vhub", " Multi Hub", function ()
+
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Veincx5315/Created/VHub/Simple'),true))()
+
+end)
+
+-- Key 
+
+local Key = Window:NewTab ("Key")
+
+local KeySection = Key:NewSection("Key")
+
+TestSection:NewButton("clé vhub", " la clé de vhub", function ()
+
+    setclipboard("GoFuckYourselfGetTheKeyInTheirDiscord")
+
+toclipboard("GoFuckYourselfGetTheKeyInTheirDiscord")
+
+end)
+
+-- Admin
+
+local Admin = Window:NewTab ("Admin")
+
+local AdminSection = Admin:NewSection("Admin")
+
+AdminSection:NewButton("FaelIs admin", " admin script", function ()
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/FaelTheExploiter/LuaU/main/yesssssssirrrrrrrrr", true))()
+
+end)
+
+AdminSection:NewButton("fate admin", " admin script", function ()
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))()
+
+end)
+
+-- Chatscript
+
+local Chatscript = Window:NewTab ("Chatscript")
+
+local ChatscriptSection = Chatscript:NewSection("Chatscript")
+
+ChatscriptSection:NewButton("fe chat translator", " vive google traduction", function ()
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/ec3zSH01"))();
+
+end)
+
+ChatscriptSection:NewButton("fe ChatBypass", " antitag", function ()
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/x114/RobloxScripts/main/FullChatBypass"))()
+
+end)
+
+ChatscriptSection:NewButton("fe moderator chat tags", " parler comme un modo", function ()
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/IlllIlIIIlllIlIlllIIlIlllIlIIlllI/PartnerPSX/main/FakePartnerTag", true))()
+
+end)
+
+-- Gui
+
+local Gui = Window:NewTab ("Gui")
+
+local GuiSection = Gui:NewSection("Gui")
+
+GuiSection:NewButton("clavier pc gui ", " clavier pour mobile", function ()
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+
+end)
+
+GuiSection:NewButton("funky friday gui", " gui pour funky friday", function ()
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ShowerHead-FluxTeam/scripts/main/funky-friday-autoplay"))()
+
+end)
+
+GuiSection:NewButton("mm2 gui", " gui pour mm2", function ()
+
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Drifter0507/GUIS/main/MURDER%20MYSTERY%202", true))();
+
+end)
+
+GuiSection:NewButton("synapse x", " synapse sur mobile", function ()
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/tWGxhNq0"))()
+
+end)
+
+GuiSection:NewButton("fly gui", " voler dans tout les jeux", function ()
+
+    loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\39\104\116\116\112\115\58\47\47\103\105\115\116\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\109\101\111\122\111\110\101\89\84\47\98\102\48\51\55\100\102\102\57\102\48\97\55\48\48\49\55\51\48\52\100\100\100\54\55\102\100\99\100\51\55\48\47\114\97\119\47\101\49\52\101\55\52\102\52\50\53\98\48\54\48\100\102\53\50\51\51\52\51\99\102\51\48\98\55\56\55\48\55\52\101\98\51\99\53\100\50\47\97\114\99\101\117\115\37\50\53\50\48\120\37\50\53\50\48\102\108\121\37\50\53\50\48\50\37\50\53\50\48\111\98\102\108\117\99\97\116\111\114\39\41\44\116\114\117\101\41\41\40\41\10\10")()
+
+end)
+
+-- Mapscript
+
+local Mapscript = Window:NewTab ("Mapscript")
+
+local MapscriptSection = Mapscript:NewSection("Mapscript")
+
+MapscriptSection:NewButton("fe monster", " rip la map", function ()
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/u5RRAUMS",true))()
+
+end)
+
+MapscriptSection:NewButton("fe vehicule fling", " véhicule tornade", function ()
+
+    loadstring(game:HttpGet("https://github.com/Oluflammes/fe-vehicule-fling/commit/9b28d1563d64943672cc2910ff7f1adf5a2491ed"))();
+
+end)
+
+-- Netless
+
+local Netless = Window:NewTab ("Netless")
+
+local NetlessSection = Netless:NewSection("Netless")
+
+NetlessSection:NewButton("fe among us v2", " AMOGUS", function ()
+
+    loadstring(game:HttpGet(('https://pastefy.ga/7xEZRqfH/raw'),true))()
+
+end)
+
+NetlessSection:NewButton("fe fake gorrila tag", " devient un gorille", function ()
+
+    loadstring(game:HttpGet(('https://pastefy.ga/osEThPw1/raw'),true))()
+
+end)
+
+NetlessSection:NewButton("fe Long Snake v2 ", " devient un long serpent", function ()
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/QRqvLTGA"))();
+
+end)
+
+-- Tools
+
+local Tools = Window:NewTab ("Tools")
+
+local ToolsSection = Tools:NewSection("Tools")
+
+ToolsSection:NewButton("fe click fling tool", " click fling tool", function ()
+
+    loadstring(game:HttpGet(('https://pastefy.ga/xBdd9GId/raw'),true))()
+
+end)
+
+ToolsSection:NewButton("fe invisible tools", " devient invisible", function ()
+
+    loadstring(game:HttpGet("https://gist.githubusercontent.com/skid123skidlol/cd0d2dce51b3f20ad1aac941da06a1a1/raw/f58b98cce7d51e53ade94e7bb460e4f24fb7e0ff/%257BFE%257D%2520Invisible%2520Tool%2520(can%2520hold%2520tools)",true))()
+
+end)
+
+ToolsSection:NewButton("fe portail gun v2", " le fusil a rick", function ()
+
+    loadstring(game:HttpGet(('https://pastefy.ga/hXHOUgDa/raw'),true))()
+
+end)
+
+-- Code
+
+local Code = Window:NewTab ("Code")
+
+local CodeSection = Code:NewSection("Code")
+
+CodeSection:NewButton("CYBERPUNK 🔊", "un essai", function()
+
+    setclipboard("6911766512")
+
+toclipboard("6911766512")
+
+end)
+
+CodeSection:NewButton("RIP/read inside🖤", "...", function()
+
+    setclipboard("6658650660")
+
+toclipboard("6658650660")
+
+end)
+
+CodeSection:NewButton("SKZCRINGE/isvvc💀", "un essai", function()
+
+    setclipboard("6819593773")
+
+toclipboard("6819593773")
+
+end)
+
+CodeSection:NewButton("TROJAN/puma😈", "un essai", function()
+
+    setclipboard("6923867528")
+
+toclipboard("6923867528")
+
+end)
+
+CodeSection:NewButton("e girl 👾", "...", function()
+
+    setclipboard("6868493025")
+
+toclipboard("6868493025")
+
+end)
+
+CodeSection:NewButton("USRAP/Wanna Smoke", "...", function()
+
+    setclipboard("6772846771")
+
+toclipboard("6772846771")
+
+end)
+
+CodeSection:NewButton("Sad Nigga Hour 🙈", "...", function()
+
+    setclipboard("6806140478")
+
+toclipboard("6806140478")
+
+end)
+
+CodeSection:NewButton("INTRO🎮", "...", function()
+
+    setclipboard("6817682704")
+
+toclipboard("6817682704")
+
+end)
+
+CodeSection:NewButton("Phonk bass", "...", function()
+
+    setclipboard("1050510419")
+
+toclipboard("1050510419")
+
+end)
+
+CodeSection:NewButton("MONSTER SCREAM👹", "un essai", function()
+
+    setclipboard("9059284808")
+
+toclipboard("9059284808")
+
+end)
+
+CodeSection:NewButton("windows XP startup💻", "un essai", function()
+
+    setclipboard("9094546337")
+
+toclipboard("9094546337")
+
+end)
+
+CodeSection:NewButton("Le billet 💵", "...", function()
+
+    setclipboard("6950593634")
+
+toclipboard("6950593634")
+
+end)
+
+CodeSection:NewButton("Still here", "un essai", function()
+
+    setclipboard("7006487793")
+
+toclipboard("7006487793")
+
+end)
+
+CodeSection:NewButton("kroxxroad", "...", function()
+
+    setclipboard("6893776529")
+
+toclipboard("6893776529")
+
+end)
+
+CodeSection:NewButton("inappropriate 🚫", "...", function()
+
+    setclipboard("6555905311")
+
+toclipboard("6555905311")
+
+end)
+
+CodeSection:NewButton("Jumex loner🌆", "...", function()
+
+    setclipboard("6847929757")
+
+toclipboard("6847929757")
+
+end)
+
+CodeSection:NewButton("Yokaivv", "...", function()
+
+    setclipboard("6909980547")
+
+toclipboard("6909980547")
+
+end)
+
+CodeSection:NewButton("Wanna Smoke/USRAP 🤬", "...", function()
+
+    setclipboard("6772846771")
+
+toclipboard("6772846771")
+
+end)
+
+CodeSection:NewButton("phonk", "...", function()
+
+    setclipboard("7987319238")
+
+toclipboard("7987319238")
+
+end)
+
+CodeSection:NewButton("Bag de griff", "...", function()
+
+    setclipboard("6841087956")
+
+toclipboard("6841087956")
+
+end)
+
+CodeSection:NewButton("Loud/earrape", "...", function()
+
+    setclipboard("6846153394")
+
+toclipboard("6846153394")
+
+end)
+
+CodeSection:NewButton("Join Z loud", "...", function()
+
+    setclipboard("6969006426")
+
+toclipboard("6969006426")
+
+end)
+
+CodeSection:NewButton("aaaaa zo", "...", function()
+
+    setclipboard("8222782975")
+
+toclipboard("8222782975")
+
+end)
+
+CodeSection:NewButton("Electric City", "...", function()
+
+    setclipboard("1838659275")
+
+toclipboard("1838659275")
+
+end)
+
+CodeSection:NewButton("Harx is fury😡", "...", function()
+
+    setclipboard("6909980547")
+
+toclipboard("6909980547")
+
+end)
+
+CodeSection:NewButton("Shifting 🔊👿", "...", function()
+
+    setclipboard("6943232352")
+
+toclipboard("6943232352")
+
+end)
+
+CodeSection:NewButton("Black and yellow🐝", "...", function()
+
+    setclipboard("139235100")
+
+toclipboard("139235100")
+
+end)
+
+CodeSection:NewButton("frosting of my Heart🤍", "...", function()
+
+    setclipboard("8222790838")
+
+toclipboard("8222790838")
+
+end)
+
+CodeSection:NewButton("Jumpstyle", "...", function()
+
+    setclipboard("1839246711")
+
+toclipboard("1839246711")
+
+end)
+
+CodeSection:NewButton("Hello Bozo🤡", "...", function()
+
+    setclipboard("7516826765")
+
+toclipboard("7516826765")
+
+end)
+
+CodeSection:NewButton("Russian", "...", function()
+
+    setclipboard("9071698640")
+
+toclipboard("9071698640")
+
+end)
+
+CodeSection:NewButton("TACTICAL NUKE☢️", "...", function()
+
+    setclipboard("1312880397")
+
+toclipboard("1312880397")
+
+end)
+
+CodeSection:NewButton("MORGENSHTERN HAWAI🌺", "...", function()
+
+    setclipboard("1837255793")
+
+toclipboard("1837255793")
+
+end)
+
+CodeSection:NewButton("SAD VIOLON🎻", "...", function()
+
+    setclipboard("135308045")
+
+toclipboard("135308045")
+
+end)
+
+CodeSection:NewButton("日本の崇拝", "...", function()
+
+    setclipboard("435240116")
+
+toclipboard("435240116")
+
+end)
+
+CodeSection:NewButton("WASTED GTA🪦", "...", function()
+
+    setclipboard("204074025")
+
+toclipboard("204074025")
+
+end)
+
+CodeSection:NewButton("JOJO ATTACK", "...", function()
+
+    setclipboard("1571597070")
+
+toclipboard("1571597070")
+
+end)
+
+CodeSection:NewButton("HEAVY METAL🔊🤬👿", "...", function()
+
+    setclipboard("1837278308")
+
+toclipboard("1837278308")
+
+end)
+
+CodeSection:NewButton("RASTAMAN☀️", "...", function()
+
+    setclipboard("1839144981")
+
+toclipboard("1839144981")
+
+end)
+
+CodeSection:NewButton("Cornemuse pour niquer vos oreilles🎶", "...", function()
+
+    setclipboard("1840225614")
+
+toclipboard("1840225614")
+
+end)
+
+CodeSection:NewButton("Hymne des USA", "...", function()
+
+    setclipboard("1840297374")
+
+toclipboard("1840297374")
+
+end)
+
+CodeSection:NewButton("AAAAAAAAA", "...", function()
+
+    setclipboard("2006547142")
+
+toclipboard("2006547142")
+
+end)
+
+CodeSection:NewButton("y'a des noirs ici🐒", "...", function()
+
+    setclipboard("2473639958")
+
+toclipboard("2473639958")
+
+end)
+
+CodeSection:NewButton("WAAAAW KAWAI", "...", function()
+
+    setclipboard("2976402600")
+
+toclipboard("2976402600")
+
+end)
+
+CodeSection:NewButton("BRUH", "...", function()
+
+    setclipboard("4572116031")
+
+toclipboard("4572116031")
+
+end)
+
+CodeSection:NewButton("CHIASSE💩", "...", function()
+
+    setclipboard("4809574295")
+
+toclipboard("4809574295")
+
+end)
+
+CodeSection:NewButton("FNAF", "...", function()
+
+    setclipboard("5216480240")
+
+toclipboard("5216480240")
+
+end)
+
+CodeSection:NewButton("SIREN HEAD", "...", function()
+
+    setclipboard("5681392704")
+
+toclipboard("5681392704")
+
+end)
+
+CodeSection:NewButton("BLOOD POP", "...", function()
+
+    setclipboard("6783714255")
+
+toclipboard("6783714255")
+
+end)
+
+CodeSection:NewButton("Rire bizzare😂", "...", function()
+
+    setclipboard("9094639541")
+
+toclipboard("9094639541")
+
+end)
+
+CodeSection:NewButton("Rose By Lukrembo🌹", "...", function()
+
+    setclipboard("9123682910")
+
+toclipboard("9123682910")
+
+end)
+
+CodeSection:NewButton("prxjex", "...", function()
+
+    setclipboard("6943232352")
+
+toclipboard("6943232352")
+
+end)
+
+CodeSection:NewButton("clear", "...", function()
+
+    setclipboard("6808292148")
+
+toclipboard("6808292148")
+
+end)
+
+CodeSection:NewButton("get of me", "...", function()
+
+    setclipboard("6817682704")
+
+toclipboard("6817682704")
+
+end)
+
+CodeSection:NewButton("deep and dirty", "...", function()
+
+    setclipboard("1836785943")
+
+toclipboard("1836785943")
+
+end)
+
+CodeSection:NewButton("dead inside", "...", function()
+
+    setclipboard("6658650660")
+
+toclipboard("6658650660")
+
+end)
+
+CodeSection:NewButton("phonk bresil", "...", function()
+
+    setclipboard("6896624865")
+
+toclipboard("6896624865")
+
+end)
+
+CodeSection:NewButton("Printer 29 argh", "...", function()
+
+	setclipboard("6435679021")toclipboard("6435679021")
+
+end)
+
+CodeSection:NewButton("Give me somes skittles 🤪🌈", "...", function()
+
+	setclipboard("4239002503")
+
+toclipboard("4239002503")
+
+end)
+
+CodeSection:NewButton("car bump", "...", function()
+
+	setclipboard("7702262254")
+
+toclipboard("7702262254")
+
+end)
+
+CodeSection:NewButton("oof", "...", function()
+
+	setclipboard("6834218705")
+
+toclipboard("6834218705")
+
+end)
+
+CodeSection:NewButton("MIDNIGHT", "...", function()
+
+	setclipboard("1840038982")
+
+toclipboard("1840038982")
+
+end)
+
+CodeSection:NewButton("Spy/Nox Song", "...", function()
+
+	setclipboard("6674211522")
+
+toclipboard("6674211522")
+
+end)
+
+CodeSection:NewButton("horror clip", "...", function()
+
+	setclipboard("8352728971")
+
+toclipboard("8352u28971")
+
+end)
+
+CodeSection:NewButton("escape", "...", function()
+
+	setclipboard("8420609252")
+
+toclipboard("8420609252")
+
+end)
+
+CodeSection:NewButton("short loop", "...", function()
+
+	setclipboard("3238478423")
+
+toclipboard("3238478423")
+
+end)
+
+CodeSection:NewButton("noise pour te faire saigner les oreilles", "...", function()
+
+	setclipboard("7713890963")
+
+toclipboard("7713890963")
+
+end)
+
+CodeSection:NewButton("long loop", "...", function()
+
+	setclipboard("4760592831")
+
+toclipboard("4760592831")
+
+end)
+
+CodeSection:NewButton("On That Time", "...", function()
+
+	setclipboard("8002015002")
+
+toclipboard("8002015002")
+
+end)
+
+CodeSection:NewButton("Weird Chickmonk Noises XDXD", "...", function()
+
+	setclipboard("930863009")
+
+toclipboard("930863009")
+
+end)
+
+CodeSection:NewButton("phonk loop", "...", function()
+
+	setclipboard("7633589815")
+
+toclipboard("7633589815")
+
+end)
+
+CodeSection:NewButton(":(", "...", function()
+
+	setclipboard("8315630207")
+
+toclipboard("8315630207")
+
+end)
+
+CodeSection:NewButton("70546615702365", "...", function()
+
+	setclipboard("8887387572")
+
+toclipboard("8887387572")
+
+end)
+
+CodeSection:NewButton("Thugs Aint Lame", "...", function()
+
+	setclipboard("2626152169")
+
+toclipboard("2626152169")
+
+end)
+
+CodeSection:NewButton("dbeatloop", "...", function()
+
+	setclipboard("4518898538")
+
+toclipboard("4518898538")
+
+end)
+
+CodeSection:NewButton("loop", "...", function()
+
+	setclipboard("7175701891")
+
+toclipboard("7175701891")
+
+end)
